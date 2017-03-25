@@ -30,3 +30,7 @@ The beauty of this is that redirection for signed URLs works not only for gettin
   1. Import the stack from your fork of this repo
 1. Double click on the Rest Api node in the canvas and select your custom domain from the drop down
 1. Deploy the stack!
+1. Test uploading a file:
+  `$ curl -L https://<api-domain>/<path>/<to>/<file>/<in>/<bucket> --upload-file <file>`
+1. Test downloading a file:
+  `$ curl -L https://<api-domain>/<path>/<to>/<file>/<in>/<bucket>`
