@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "id": "d4a7a3c",
+      "type": "objectStore",
+      "name": "Private Data",
+      "x": 490,
+      "y": 200,
+      "wires": [
+        []
+      ]
+    },
+    {
+      "id": "25d7f40d",
+      "type": "restApi",
+      "name": "API",
+      "path": "/*",
+      "domain": "test1.stackery.io",
+      "x": 120,
+      "y": 200,
+      "wires": [
+        [
+          "cfb51555"
+        ]
+      ]
+    },
+    {
+      "id": "cfb51555",
+      "type": "function",
+      "name": "API Handler",
+      "outputs": 0,
+      "memorySize": 128,
+      "timeout": 30,
+      "location": "inline",
+      "envVars": {
+        "BUCKET_ID": "${node.Private_Data.id}"
+      },
+      "x": 290,
+      "y": 200,
+      "wires": []
+    }
+  ]
+}

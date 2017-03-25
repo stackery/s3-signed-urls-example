@@ -1,0 +1,9 @@
+{
+  "name": "apihandler",
+  "version": "1.0.0",
+  "author": "Chase Douglas <chase@stackery.io>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.28.0"
+  }
+}
