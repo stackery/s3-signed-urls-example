@@ -15,7 +15,6 @@
       "type": "restApi",
       "name": "API",
       "path": "/*",
-      "domain": "test1.stackery.io",
       "x": 120,
       "y": 200,
       "wires": [
