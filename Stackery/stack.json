@@ -14,6 +14,7 @@
       "id": "cfb51555",
       "type": "function",
       "name": "API Handler",
+      "runtime": "nodejs12",
       "outputs": 0,
       "memorySize": 128,
       "timeout": 30,
