@@ -11,19 +11,6 @@
       ]
     },
     {
-      "id": "25d7f40d",
-      "type": "restApi",
-      "name": "API",
-      "path": "/*",
-      "x": 120,
-      "y": 200,
-      "wires": [
-        [
-          "cfb51555"
-        ]
-      ]
-    },
-    {
       "id": "cfb51555",
       "type": "function",
       "name": "API Handler",
